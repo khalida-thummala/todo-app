@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>📝 Todo Application</h1>
+            <p class="subtitle">Manage your tasks efficiently</p>
+            <div class="stats" id="stats">
+                <span class="stat-badge stat-total">Total: 0</span>
+                <span class="stat-badge stat-completed">Completed: 0</span>
+                <span class="stat-badge stat-pending">Pending: 0</span>
+            </div>
+        </header>
+
+        <!-- Loading State -->
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading todos...</p>
+        </div>
+
+        <!-- Todo List -->
+        <div class="todo-container" id="todoContainer">
+            <!-- Todos will be rendered here -->
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Data fetched from JSONPlaceholder API</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
