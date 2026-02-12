@@ -128,7 +128,7 @@ Contributions, issues, and feature requests are welcome!
 ## Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@khalida-thummala](https://github.com/khalida-thummala)
 
 ## Acknowledgments
 
